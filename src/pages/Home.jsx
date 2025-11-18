@@ -1,10 +1,11 @@
-import React from 'react'
-import TextArea from '../components/TextArea'
+import ParentArea from '../components/ParentArea'
 
 const Home = () => {
+
+
   return (
     <div>
-      <TextArea/>
+        <ParentArea/>
     </div>
   )
 }
