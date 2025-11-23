@@ -124,10 +124,10 @@ export default function PdfHandleUpload({ onSelectedText }) {
       {loading && <div className="mt-2 text-sm">Extracting text…</div>}
 
       {pages.length > 0 && (
-        <div className="w-full overflow-x-hidden mt-4 space-y-4 max-w-4xl">
+        <div className="w-full  mt-4 ml-2  space-y-4 max-w-4xl">
 
           {/* Mode + page selector */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center ml">
             <label className="flex items-center gap-1 text-sm">
               <input
                 type="radio"
@@ -189,7 +189,7 @@ export default function PdfHandleUpload({ onSelectedText }) {
                           setSelectedBlock({ page: currentPage, index: idx });
                           setSelectedText(p);
                         }}
-                        className={`p-2 text-sm rounded cursor-pointer mb-2 
+                        className={`gap-6  text-sm rounded cursor-pointer mb-2 
                           ${selected ? "bg-yellow-100 border border-yellow-300" : "bg-gray-50 border"}`
                         }
                       >
@@ -201,7 +201,7 @@ export default function PdfHandleUpload({ onSelectedText }) {
               ) : (
                 <div
                   onMouseUp={handleMouseUp}
-                  className="border rounded p-3 h-96 overflow-auto bg-white whitespace-pre-wrap text-sm wrap-break-words"
+                  className="border rounded  h-96 overflow-auto bg-white whitespace-pre-wrap text-sm wrap-break-words"
                   dangerouslySetInnerHTML={{
                     __html: renderPreview(
                       pages[currentPage].text,
