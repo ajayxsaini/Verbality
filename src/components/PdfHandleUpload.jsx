@@ -98,7 +98,7 @@ export default function PdfHandleUpload({ onSelectedText }) {
   };
 
   return (
-    <div className="w-full mt-10 overflow-x-hidden max-w-full box-border">
+    <div className="w-full mt-10  max-w-full box-border">
 
       {/* File + Clear */}
       <div className="w-full max-w-xl mx-auto flex flex-col items-center gap-4">
@@ -127,10 +127,10 @@ export default function PdfHandleUpload({ onSelectedText }) {
       {loading && <div className="mt-2 text-sm">Extracting text…</div>}
 
       {pages.length > 0 && (
-        <div className="w-full  mt-4 ml-2  space-y-4 max-w-4xl">
+        <div className="w-full mt-4 ml-5 space-y-4 max-w-4xl">
 
           {/* Mode + page selector */}
-          <div className="flex items-center ml">
+          <div className="flex items-center gap-2 ml">
             <label className="flex items-center gap-1 text-sm">
               <input
                 type="radio"
@@ -174,7 +174,7 @@ export default function PdfHandleUpload({ onSelectedText }) {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row min-w-0 box-border gap-6  overflow-x-hidden">
+          <div className="flex flex-col lg:flex-row min-w-0 box-border gap-6  ">
 
             {/* Left side */}
             <div className="flex-1 min-w-0">
