@@ -1,0 +1,330 @@
+{
+  "अ": {
+    "description": "Mouth slightly open, tongue relaxed and low.",
+    "sequence": [
+      "/mouth/hindi/a/step1.png",
+      "/mouth/hindi/a/step2.png"
+    ]
+  },
+
+  "आ": {
+    "description": "Mouth opens wider, tongue slightly raised at the back.",
+    "sequence": [
+      "/mouth/hindi/aa/step1.png",
+      "/mouth/hindi/aa/step2.png",
+      "/mouth/hindi/aa/step3.png"
+    ]
+  },
+
+  "इ": {
+    "description": "Lips stretched slightly, tongue raised toward the front.",
+    "sequence": [
+      "/mouth/hindi/i/step1.png",
+      "/mouth/hindi/i/step2.png"
+    ]
+  },
+
+  "ई": {
+    "description": "Similar to 'i' but with stronger lip stretching.",
+    "sequence": [
+      "/mouth/hindi/ee/step1.png",
+      "/mouth/hindi/ee/step2.png"
+    ]
+  },
+
+  "उ": {
+    "description": "Lips rounded tightly and pushed forward.",
+    "sequence": [
+      "/mouth/hindi/u/step1.png",
+      "/mouth/hindi/u/step2.png"
+    ]
+  },
+
+  "ऊ": {
+    "description": "Similar to 'u' but with more rounding and tension.",
+    "sequence": [
+      "/mouth/hindi/oo/step1.png",
+      "/mouth/hindi/oo/step2.png"
+    ]
+  },
+
+  "ए": {
+    "description": "Lips slightly stretched, tongue raised in the middle.",
+    "sequence": [
+      "/mouth/hindi/e/step1.png",
+      "/mouth/hindi/e/step2.png"
+    ]
+  },
+
+  "ऐ": {
+    "description": "Jaw opens slightly more than 'e', wider mouth shape.",
+    "sequence": [
+      "/mouth/hindi/ai/step1.png",
+      "/mouth/hindi/ai/step2.png"
+    ]
+  },
+
+  "ओ": {
+    "description": "Lips rounded softly, not pushed forward like 'u'.",
+    "sequence": [
+      "/mouth/hindi/o/step1.png",
+      "/mouth/hindi/o/step2.png"
+    ]
+  },
+
+  "औ": {
+    "description": "Combination of 'o' shape with a deeper opening of the jaw.",
+    "sequence": [
+      "/mouth/hindi/au/step1.png",
+      "/mouth/hindi/au/step2.png"
+    ]
+  },
+
+  "क": {
+    "description": "Back of the tongue touches the soft palate briefly.",
+    "sequence": [
+      "/mouth/hindi/ka/step1.png",
+      "/mouth/hindi/ka/step2.png"
+    ]
+  },
+
+  "ख": {
+    "description": "Same as 'k' but with strong burst of air.",
+    "sequence": [
+      "/mouth/hindi/kha/step1.png",
+      "/mouth/hindi/kha/step2.png"
+    ]
+  },
+
+  "ग": {
+    "description": "Tongue touches soft palate lightly then releases.",
+    "sequence": [
+      "/mouth/hindi/ga/step1.png",
+      "/mouth/hindi/ga/step2.png"
+    ]
+  },
+
+  "घ": {
+    "description": "Same as 'g' but with a noticeable breathy release.",
+    "sequence": [
+      "/mouth/hindi/gha/step1.png",
+      "/mouth/hindi/gha/step2.png"
+    ]
+  },
+
+  "च": {
+    "description": "Tongue raised toward the front palate, quick release.",
+    "sequence": [
+      "/mouth/hindi/cha/step1.png",
+      "/mouth/hindi/cha/step2.png"
+    ]
+  },
+
+  "छ": {
+    "description": "Stronger airflow version of 'ch'.",
+    "sequence": [
+      "/mouth/hindi/chha/step1.png",
+      "/mouth/hindi/chha/step2.png"
+    ]
+  },
+
+  "ज": {
+    "description": "Tongue touches front palate lightly then releases.",
+    "sequence": [
+      "/mouth/hindi/ja/step1.png",
+      "/mouth/hindi/ja/step2.png"
+    ]
+  },
+
+  "झ": {
+    "description": "Like 'j' but with a breathy, aspirated sound.",
+    "sequence": [
+      "/mouth/hindi/jha/step1.png",
+      "/mouth/hindi/jha/step2.png"
+    ]
+  },
+
+  "ट": {
+    "description": "Tongue curled back and touches roof of the mouth.",
+    "sequence": [
+      "/mouth/hindi/tta/step1.png",
+      "/mouth/hindi/tta/step2.png"
+    ]
+  },
+
+  "ठ": {
+    "description": "Retroflex 'ṭh' with a strong burst of air.",
+    "sequence": [
+      "/mouth/hindi/ttha/step1.png",
+      "/mouth/hindi/ttha/step2.png"
+    ]
+  },
+
+  "ड": {
+    "description": "Retroflex tongue touching roof lightly, voiced sound.",
+    "sequence": [
+      "/mouth/hindi/dda/step1.png",
+      "/mouth/hindi/dda/step2.png"
+    ]
+  },
+
+  "ढ़": {
+    "description": "Retroflex 'ḍh' with breathy release.",
+    "sequence": [
+      "/mouth/hindi/ddha/step1.png",
+      "/mouth/hindi/ddha/step2.png"
+    ]
+  },
+
+  "त": {
+    "description": "Tongue touches the area just behind the teeth.",
+    "sequence": [
+      "/mouth/hindi/ta/step1.png",
+      "/mouth/hindi/ta/step2.png"
+    ]
+  },
+
+  "थ": {
+    "description": "Same as 't' but with strong outward breath.",
+    "sequence": [
+      "/mouth/hindi/tha/step1.png",
+      "/mouth/hindi/tha/step2.png"
+    ]
+  },
+
+  "द": {
+    "description": "Tongue behind teeth, softer voiced release.",
+    "sequence": [
+      "/mouth/hindi/da/step1.png",
+      "/mouth/hindi/da/step2.png"
+    ]
+  },
+
+  "ध": {
+    "description": "Voiced 'd' but with breathy aspiration.",
+    "sequence": [
+      "/mouth/hindi/dha/step1.png",
+      "/mouth/hindi/dha/step2.png"
+    ]
+  },
+
+  "न": {
+    "description": "Tongue touches the alveolar ridge, nasal airflow.",
+    "sequence": [
+      "/mouth/hindi/na/step1.png",
+      "/mouth/hindi/na/step2.png"
+    ]
+  },
+
+  "प": {
+    "description": "Both lips closed, opening causes the sound.",
+    "sequence": [
+      "/mouth/hindi/pa/step1.png",
+      "/mouth/hindi/pa/step2.png"
+    ]
+  },
+
+  "ब": {
+    "description": "Both lips closed, voiced sound when released.",
+    "sequence": [
+      "/mouth/hindi/ba/step1.png",
+      "/mouth/hindi/ba/step2.png"
+    ]
+  },
+
+  "भ": {
+    "description": "Aspirated version of 'b' with strong air release.",
+    "sequence": [
+      "/mouth/hindi/bha/step1.png",
+      "/mouth/hindi/bha/step2.png"
+    ]
+  },
+
+  "म": {
+    "description": "Both lips closed, nasal resonance.",
+    "sequence": [
+      "/mouth/hindi/ma/step1.png",
+      "/mouth/hindi/ma/step2.png"
+    ]
+  },
+
+  "य": {
+    "description": "Middle tongue slightly raised, soft glide sound.",
+    "sequence": [
+      "/mouth/hindi/ya/step1.png",
+      "/mouth/hindi/ya/step2.png"
+    ]
+  },
+
+  "र": {
+    "description": "Tongue curls slightly upward, slight vibration.",
+    "sequence": [
+      "/mouth/hindi/ra/step1.png",
+      "/mouth/hindi/ra/step2.png"
+    ]
+  },
+
+  "ल": {
+    "description": "Tongue touches teeth area but air flows from the sides.",
+    "sequence": [
+      "/mouth/hindi/la/step1.png",
+      "/mouth/hindi/la/step2.png"
+    ]
+  },
+
+  "व": {
+    "description": "Upper teeth lightly touch the lower lip.",
+    "sequence": [
+      "/mouth/hindi/va/step1.png",
+      "/mouth/hindi/va/step2.png"
+    ]
+  },
+
+  "श": {
+    "description": "Tongue raised to front palate, narrow air passage.",
+    "sequence": [
+      "/mouth/hindi/sha/step1.png",
+      "/mouth/hindi/sha/step2.png"
+    ]
+  },
+
+  "ष": {
+    "description": "Tongue curled backward toward the hard palate.",
+    "sequence": [
+      "/mouth/hindi/shha/step1.png",
+      "/mouth/hindi/shha/step2.png"
+    ]
+  },
+
+  "स": {
+    "description": "Teeth slightly open, air flows straight forward.",
+    "sequence": [
+      "/mouth/hindi/sa/step1.png",
+      "/mouth/hindi/sa/step2.png"
+    ]
+  },
+
+  "ह": {
+    "description": "Breath flows from throat, mouth relaxed.",
+    "sequence": [
+      "/mouth/hindi/ha/step1.png",
+      "/mouth/hindi/ha/step2.png"
+    ]
+  },
+
+  "क्ष": {
+    "description": "Combination of 'k' with retroflex 'ṣ'.",
+    "sequence": [
+      "/mouth/hindi/ksha/step1.png",
+      "/mouth/hindi/ksha/step2.png"
+    ]
+  },
+
+  "त्र": {
+    "description": "Combination of 't' and 'r', quick tongue tap.",
+    "sequence": [
+      "/mouth/hindi/tra/step1.png",
+      "/mouth/hindi/tra/step2.png"
+    ]
+  }
+}
