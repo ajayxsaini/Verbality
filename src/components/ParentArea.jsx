@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import TextArea from './TextArea'
 import LangPronArea from './LangPronArea'
 import PdfHandleUpload from './PdfHandleUpload'
+import DialogPicture from './DialogPicture'
 
 const ParentArea = () => {
   const [text, setText] = useState("");        // live input
@@ -9,6 +10,7 @@ const ParentArea = () => {
 
   return (
     <div>
+      <DialogPicture/>
       <TextArea 
         text={text}
         setText={setText}
