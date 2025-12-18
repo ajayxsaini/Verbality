@@ -1,9 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
 
-const LangPronArea = ({ generatedText }) => {
+
+
+const LangPronArea = ({ generatedText, setShow }) => {
   const [rate, setRate] = useState(1);
   const [currentWordIndex, setCurrentWordIndex] = useState(null);
-
+  
   const utterRef = useRef(null);
   const words = generatedText ? generatedText.split(" ") : [];
 
@@ -116,6 +118,7 @@ const LangPronArea = ({ generatedText }) => {
       >
         {words.map((word, i) => (
           <span
+            onClick={() => setShow(true)}
             key={i}
             ref={wordRefs.current[i]}  // 👈 Attach ref to each word
             style={{

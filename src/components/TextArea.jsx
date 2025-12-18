@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TextArea = ({ text, setText, onGenerate, setShow }) => {
+const TextArea = ({ text, setText, onGenerate }) => {
 
   return (
     <div className="min-h-screen/2 w-screen flex justify-center items-center bg-gray-100">
@@ -22,7 +22,7 @@ const TextArea = ({ text, setText, onGenerate, setShow }) => {
         <div className="mt-4 mb-4">
           <button
             onClick={() => {onGenerate(text)
-                          setShow(true)
+                         
             }}
             className="px-6 py-2 bg-green-400 text-white rounded-lg transition hover:bg-green-700 cursor-pointer"
           >
