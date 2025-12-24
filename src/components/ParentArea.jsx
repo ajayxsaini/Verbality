@@ -5,21 +5,22 @@ import PdfHandleUpload from './PdfHandleUpload'
 import DialogPicture from './DialogPicture'
 
 const ParentArea = () => {
-  
+
+  const [selectedWord, setSelectedWord] = useState("");
   const [text, setText] = useState("");        // live input
   const [speakText, setSpeakText] = useState(""); // only spoken when Generate clicked
   const [show, setShow] = useState(false);
 
   return (
     <div>
-      <DialogPicture show = {show}/>
+      <DialogPicture show = {show} word = {selectedWord}/>
       <TextArea 
         text={text}
         setText={setText}
         onGenerate={() => setSpeakText(text)} 
         
       />
-      <LangPronArea generatedText={speakText} setShow = {setShow} />  
+      <LangPronArea generatedText={speakText} setShow = {setShow} setSelectedWord={setSelectedWord} />  
       <PdfHandleUpload onSelectedText={setText} />
     </div>
   )

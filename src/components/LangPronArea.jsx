@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 
 
 
-const LangPronArea = ({ generatedText, setShow }) => {
+const LangPronArea = ({ generatedText, setShow, setSelectedWord }) => {
   const [rate, setRate] = useState(1);
   const [currentWordIndex, setCurrentWordIndex] = useState(null);
   
@@ -117,8 +117,11 @@ const LangPronArea = ({ generatedText, setShow }) => {
         style={{ whiteSpace: "normal" }}
       >
         {words.map((word, i) => (
-          <span
-            onClick={() => setShow(true)}
+          <span 
+            onClick={() => 
+                {setShow(true)
+                 setSelectedWord(word)
+            }}
             key={i}
             ref={wordRefs.current[i]}  // 👈 Attach ref to each word
             style={{
