@@ -13,7 +13,7 @@ const ParentArea = () => {
 
   return (
     <div>
-      <DialogPicture show = {show} word = {selectedWord}/>
+      <DialogPicture show = {show} word = {selectedWord} setShow={setShow}/>
       <TextArea 
         text={text}
         setText={setText}

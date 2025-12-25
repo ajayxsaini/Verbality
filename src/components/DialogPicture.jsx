@@ -1,6 +1,6 @@
 import React from "react";
 
-const DialogPicture = ({ show, word }) => {
+const DialogPicture = ({ show, word, setShow }) => {
   // Do not render if dialog is hidden or no word selected
   if (!show || !word) return null;
 
@@ -10,9 +10,16 @@ const DialogPicture = ({ show, word }) => {
     .split("");
 
   return (
-    <div className="absolute inset-0 flex justify-center items-center z-50 bg-black/30">
-      <div className="bg-white border-2 border-gray-400 rounded-lg p-6 w-96">
-
+    // 🔹 Overlay (clicking here closes dialog)
+    <div
+      className="absolute inset-0 z-50 flex justify-center items-center bg-black/30"
+      onClick={() => setShow(false)}
+    >
+      {/* 🔹 Dialog box (clicking here does NOT close) */}
+      <div
+        className="bg-white border-2 border-gray-400 rounded-lg p-6 w-96"
+        onClick={(e) => e.stopPropagation()}
+      >
         <h2 className="text-lg font-bold mb-4 text-center">
           Word: {word}
         </h2>
@@ -32,10 +39,10 @@ const DialogPicture = ({ show, word }) => {
             </div>
           ))}
         </div>
-
       </div>
     </div>
   );
+
 };
 
 export default DialogPicture;
