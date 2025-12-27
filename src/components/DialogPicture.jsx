@@ -1,4 +1,5 @@
-import React from "react";
+
+
 
 const DialogPicture = ({ show, word, setShow }) => {
   // Do not render if dialog is hidden or no word selected
